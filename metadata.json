@@ -1,0 +1,10 @@
+{
+    "display_name": "Robust Python Development Project",
+    "command": "init",
+    "force_env": "pipenv",
+    "dependencies": [],
+    "author": "Jeff Leake & Nick Padon",
+    "author_email": "jeff.leake@oliverwyman.com; nicholas.padon@oliverwyman.com",
+    "description": "This repo is meant to represent a "canonical" Python project, where some of the infrastructure details associated with styling, linting, testing, and test coverage are handled so you don't have to think about them.",
+    "read_more_link": "https://github.com/ow-gryphon/gryphon-canonical-python"
+}
