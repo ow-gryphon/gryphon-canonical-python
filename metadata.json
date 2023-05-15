@@ -1,10 +1,12 @@
 {
-    "display_name": "Canonical / Industrialized Python Project (with pipenv)",
-    "command": "init",
-    "force_env": "pipenv",
-    "dependencies": [],
     "author": "Jeff Leake & Nick Padon",
     "author_email": "jeff.leake@oliverwyman.com; nicholas.padon@oliverwyman.com",
+    "command": "init",
+    "dependencies": [],
     "description": "This repo is meant to represent a 'canonical' Python project, where some of the infrastructure details associated with styling, linting, testing, and test coverage are handled so you don't have to think about them.",
-    "read_more_link": "https://github.com/ow-gryphon/gryphon-canonical-python"
+    "display_name": "Canonical / Industrialized Python Project (with pipenv)",
+    "force_env": "pipenv",
+    "read_more_link": "https://github.com/ow-gryphon/gryphon-canonical-python",
+    "version": "0.0.2",
+    "shell_exec": "pipenv install --dev & pipenv run pre-commit install"
 }
